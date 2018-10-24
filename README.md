@@ -1,1 +1,1 @@
-# this is simply an experimental repository, experimentin with both Git and .py
+# this is simply an experimental repository, experimenting with both Git and .py
