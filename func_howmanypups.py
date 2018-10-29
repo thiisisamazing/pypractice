@@ -14,3 +14,9 @@ elif x==3:
     pupmid()
 elif x>=4:
     pupmax()
+y=str(input("would you like to try again? yes or no"))
+if y==yes or no:
+    break
+else:
+    print ("error, try again")
+    
