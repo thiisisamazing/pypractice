@@ -1,0 +1,12 @@
+import random 
+print("This is a magic fortune generator. The Universe shares its secrets with us, and now we will tell you what the future holds for you!")
+x=int(input("Enter your age: "))
+y=int(input("Enter number of puppies you have: "))
+z=int(input("Enter number of puppies you WISH to have: "))
+a=random.randint(50,80)
+b=random.randint(0,20)
+c=random.randint(0,500)
+print("Perfect! And now the universe shares with us its secrets!")
+print("You will live to be",x+a,"years old.")
+print("You will have",y+b,"more pups!")
+print("You will have a puppy farm that's",z+c,"acres!")
