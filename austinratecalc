@@ -1,0 +1,29 @@
+x=int(input("How many kWh do you use? "))
+
+a=10
+b=0.02801 
+c=0.05832
+d=0.07814 
+e=0.09314 
+f=0.10814 
+g=0.02895 
+h=0.00154 
+i=0.00124
+j=0.00335
+k=0.01342
+
+if x<=500:
+    z=(a+(b*x)+(g*x)+(h*x)+(i*x)+(j*x)+(k*x))
+if 501<x<=1000:
+    z=(a+(c*x)+(g*x)+(h*x)+(i*x)+(j*x)+(k*x))
+if 1001<x<=1500:
+    z=(a+(d*x)+(g*x)+(h*x)+(i*x)+(j*x)+(k*x))
+if 1501<x<=2500:
+    z=(a+(e*x)+(g*x)+(h*x)+(i*x)+(j*x)+(k*x))
+if 2501<x<10000000:
+    z=(a+(f*x)+(g*x)+(h*x)+(i*x)+(j*x)+(k*x))
+    
+z=round(z,2)
+
+
+y=print("This is what your bill will be: ",z)
